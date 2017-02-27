@@ -1,0 +1,19 @@
+
+
+
+This is a code for triangulation of monotone polygones:-
+
+
+1> g++ -ggdb `pkg-config --cflags opencv` -o `basename m_triangulationgui.cpp .cpp` m_triangulationgui.cpp `pkg-config --libs opencv`
+
+2>./m_triangulationgui
+
+3>The code:-
+	a>Lets you select points of your polygon on the screen. Select the exact number of points as the number of vertices input.
+	b> It returns an error if polygon is not y-monotone.
+	c> If the polygon is monotone it shows the triangulation.
+
+
+
+# HARSHIT SUSHIL SIKCHI
+# 15CS10043
