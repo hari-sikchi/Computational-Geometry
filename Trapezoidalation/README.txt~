@@ -1,0 +1,15 @@
+
+
+
+To compile run:
+
+g++ -ggdb `pkg-config --cflags opencv` -o `basename trap .cpp` trapezoidalation.cpp `pkg-config --libs opencv`
+
+./trap
+
+
+
+//--------------------------------------------------------
+
+
+All the cases are indicated in screenshots
